@@ -22,4 +22,4 @@ julia stack_trace.jl
 ```
 
 Example:
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/eliasaronson/esp_exception_stack_trace_decoder/blob/main/Example.png)
