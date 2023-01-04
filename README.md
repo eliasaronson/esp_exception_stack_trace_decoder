@@ -1,7 +1,7 @@
 # ESP32/ESP8266 exception stack trace decoder
 Julia script for decoding ESP32/ESP8266 exception stack traces with IDF.
 
-This script first finds the newest Arduino sketch in the /tmp folder and looks for a .elf-file to match the stack trace to. It then reads input with the stack trace and runs xtensa-esp32-elf-addr2line on each address.
+This script first finds the newest Arduino sketch in the /tmp folder and looks for a .elf-file to match the stack trace to. It then reads an input with the stack trace and runs xtensa-esp32-elf-addr2line on each address.
 
 ## Dependencies
 * [ESP-IDF](https://github.com/espressif/esp-idf)
