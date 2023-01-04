@@ -26,13 +26,13 @@ function test_idf()
     end
 
     if !success
-        println("Needed program \"idf\" not found. Please install it or run \"source /opt/esp-idf/export.sh\" if already installed.")
+        println("Required program ESP-IDF not found. Please install it or run \"source /opt/esp-idf/export.sh\" if already installed.")
         # println("idf not found. Running \"source /opt/esp-idf/export.sh\"")
         # execute(`source /opt/esp-idf/export.sh`)
         return false
     end
 
-    println("Found \"idf\". Ready...")
+    println("ESP-IDF found. Looking for .elf-file.")
     return true
 end
 
